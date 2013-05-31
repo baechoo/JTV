@@ -23,9 +23,6 @@ public class IntroActivity extends Activity {
 				startActivity(new Intent(IntroActivity.this, MainActivity.class));
 			}
 		};
-		
-		handler.sendEmptyMessageDelayed(0, 2000);
+		handler.sendEmptyMessageDelayed(0, 3000);
 	}
-	
-
 }
